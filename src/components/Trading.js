@@ -12,11 +12,11 @@ class Trading extends Component {
 
     }
     componentWillMount(){
-        $('tactics_way').children('li').mouseover(
-            function () {
-                $(this).animate({height:'20px'},500)
-            }
-        )
+        // $('tactics_way').children('li').mouseover(
+        //     function () {
+        //         $(this).animate({padding:'30px 0',border:'5px solid #F9F9F9'},500)
+        //     }
+        // )
     }
     render(){
         let  fontSize,
@@ -91,17 +91,17 @@ class Trading extends Component {
                             <p className="p1" style={{fontSize:fontSize}}>{Lang.TRADINGCONTENT.PARTTHREE.CONTEXT_TWO}</p>
 
                             <ul className="tactics_way ">
-                                <li>
-                                    <div className="trade_cengter">
+                                <li className="trade_cengter">
+
                                     <img src="./src/images/trade/s1.png"/>
                                     <p style={{fontSize:fontSize1}}><b>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_ONE.TITLE}</b></p>
                                     <p style={{fontSize:fontSize4,marginBottom:marginBot}}>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_ONE.CONTEXT_ONE}</p>
                                     <p style={{fontSize:fontSize4}}>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_ONE.CONTEXT_TWO}</p>
                                     <p style={{fontSize:fontSize4}}>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_ONE.CONTEXT_THREE}</p>
                                     <p style={{fontSize:fontSize4}}>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_ONE.CONTEXT_FOUR}</p>
-                                    </div>
+
                         </li>
-                                <li>
+                                <li className="trade_cengter1">
                                     <img src="./src/images/trade/s2.png"/>
                                     <p style={{fontSize:fontSize1}}><b>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_TWO.TITLE}</b></p>
                                     <p style={{fontSize:fontSize4,marginBottom:marginBot}}>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_TWO.CONTEXT_ONE}</p>
@@ -109,7 +109,7 @@ class Trading extends Component {
                                     <p style={{fontSize:fontSize4}}>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_TWO.CONTEXT_THREE}</p>
                                     <p style={{fontSize:fontSize4}}>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_TWO.CONTEXT_FOUR}</p>
                                 </li>
-                                <li>
+                                <li className="trade_cengter2">
                                     <img src="./src/images/trade/s3.png"/>
                                     <p style={{fontSize:fontSize1}}><b>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_THREE.TITLE}</b></p>
                                     <p style={{fontSize:fontSize4,marginBottom:marginBot}}>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_THREE.CONTEXT_ONE}</p>
