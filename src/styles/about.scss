@@ -244,13 +244,13 @@
       color: #666666;
 
       ul {
-        width: 1020px;
-        display: flex;
-        display: -ms-flexbox;
+
+        display: table;
+
         margin: 0 auto;
         li {
-          width: 340px;
-          height: 215px;
+          width: 368px;
+          height: 233px;
           list-style: none;
           float: left;
           padding: 0 10px;
@@ -291,7 +291,7 @@
     }
     .about_bom {
 
-      margin-top: 107px;
+      margin-top: 88px;
 
       margin-bottom: 46px;
       display: inline-block;
