@@ -1,0 +1,32 @@
+html, body, div,h3, h5, h6, p, ul, li ,img{
+    margin: 0;
+    padding: 0;
+    font-family: SF Pro Text,SF Pro Icons,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif
+}
+
+.l{
+    float: left!important;
+}
+.r{
+    float: right!important;
+}
+a{
+    text-decoration: none;
+}
+
+.w1220{
+    width: 1220px!important;
+    display: inline;
+}
+.w1220-Center{
+    margin: 0 auto!important;
+    overflow: hidden!important;
+}
+
+.clear-margin{
+    margin: 0!important;
+    background-size: contain;
+}
+.hideEverything{
+    display: none!important;
+}

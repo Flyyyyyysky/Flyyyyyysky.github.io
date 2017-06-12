@@ -1,1 +1,61 @@
-Hello World
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> </title>
+    <link rel="stylesheet" href="./build/main.css">
+    <link rel="icon" href="./title_logo.png" type="image/x-icon" sizes="65x65" />
+    <link rel="stylesheet" href="src/styles/swiper/dist/css/swiper.min.css">
+
+</head>
+
+<body >
+
+<div id="app"></div>
+
+<script src="https://api.map.baidu.com/api?v=2.0&ak=KGaCe0RNdODcS26DCfBtbNF1i6hHScHE" type="text/javascript" ></script>
+<script src="./src/styles/jquery.js"></script>
+<script src="./src/styles/jquery.transit.js"></script>
+<script src="./src/styles/jquery-css-transform.js" type="text/javascript"></script>
+<script src="./src/styles/jquery-animate-css-rotate-scale.js"></script>
+<script src="./src/styles/Swiper-2.7.6/dist/idangerous.swiper.min.js"></script>
+<script src="./build/bundle.js"> </script>
+
+<script>
+    !(function(win, doc){
+        let language = navigator.browserLanguage?navigator.browserLanguage:navigator.language;
+        document.title = language.indexOf('zh')!==0?'Zendo Technology':'禅道科技';
+        function setFontSize() {
+            let winWidth =  window.innerWidth;
+            doc.documentElement.style.fontSize = (winWidth / 2560) * 100 + 'px' ;
+        }
+
+        let evt = 'onorientationchange' in win ? 'orientationchange' : 'resize';
+
+        let timer = null;
+
+        win.addEventListener(evt, function () {
+            clearTimeout(timer);
+
+            timer = setTimeout(setFontSize, 300);
+        }, false);
+
+        win.addEventListener("pageshow", function(e) {
+            if (e.persisted) {
+                clearTimeout(timer);
+
+                timer = setTimeout(setFontSize, 300);
+            }
+        }, false);
+
+        setFontSize();
+
+    }(window, document));
+
+</script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,267 @@
+.trade{
+  overflow: hidden;
+  .trade_header_pic{
+    width: 100%;
+    height:290px;
+    position: relative;
+    display: flex;
+    display: -ms-flexbox;
+    justify-content: center;
+    background: url(../images/trade/trade_top.jpg) center no-repeat;
+    overflow: hidden;
+    .trade_header_bg{
+      width: 1000px;
+      height: 100px;
+      margin-top: 100px;
+      background: url(../images/trade/img2+.png) center no-repeat;
+      background-size: 100%;
+      font-size: 0;
+      color: white;
+     p:nth-child(1){
+       font-size: 26px;
+       margin: 16px 0 0 50px;
+     }
+      p:nth-child(2){
+       color: #F9F9F9;
+        font-size: 14px;
+        margin-top: 8px;
+        margin-left: 78px;
+      }
+    }
+
+  }
+  .technology{
+    text-align: center;
+    margin-top: 60px;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    display: -ms-flexbox;
+    justify-content: center;
+    .map{
+      margin-bottom: 76px;
+      overflow: hidden;
+      display: flex;
+      display: -ms-flexbox;
+      justify-content: center;
+      .place{
+        float: left;
+        width:524px;
+        height: 238px;
+        border: 11px solid #EBF9FF;
+        background:url(../images/trade/map.png) center no-repeat ;
+        background-size: 70%;
+      }
+      .gift{
+        float: left;
+        width:486px;
+        height:260px;
+        background: #f6f7fb;
+        margin-left: 14px;
+
+        .p1{
+          margin-top: 84px;
+          font-size: 18px;
+          color: rgb(16,110,202);
+        }
+        .gift1{
+          .p2{
+            line-height: 20px;
+            width:370px;
+            font-size: 16px;
+            padding: 0 10px;
+            margin: 36px auto 0 auto;
+            color:rgb(120,120,120)
+          }
+        }
+
+      }
+    }
+
+    .combination{
+      height:80px;
+      text-align: center;
+      margin: 0 auto;
+
+      .invest{
+        font-size: 28px;
+        text-align: center;
+        .p4{
+          margin-top: 20px;
+          font-size: 16px;
+          color: #666666;
+        }
+      }
+    }
+    .introduce{
+      list-style: none;
+      overflow: hidden;
+      display: flex;
+      display: -ms-flexbox;
+      width: 840px;
+      height: 215px;
+      margin: 76px auto;
+      li{
+        width: 280px;
+        float: left;
+        img{
+          width: 64px;
+          height: 64px;
+        }
+        .p5{
+          font-size: 16px;
+          font-weight: 400;
+          margin-top: 10px;
+          color: #0065c7;
+        }
+        .introduce_own{
+
+          margin-top: 44px;
+          p{
+            font-size: 14px;
+            color:#666666;
+          }
+        }
+      }
+      li:nth-child(2){
+        margin:0 10px 0 14px;
+      }
+    }
+
+    .about_line{
+      .about_line1{
+        width: 378px;
+        height: 7px;
+        margin: 50px auto 50px auto;
+        background: url(../images/index/line1.png) center no-repeat;
+        background-size: 100%;
+
+      }
+    }
+    .tactics{
+      margin-top: 20px;
+      height:420px;
+
+      margin-bottom: 65px;
+      p{
+        font-size: 28px;
+
+      }
+      p:nth-child(2){
+        margin-top: 20px;
+        font-size: 16px;
+        color: #666666;
+        line-height: 20px;
+      }
+      p:nth-child(3){
+
+        font-size: 16px;
+        color: #666666;
+        line-height: 20px;
+      }
+
+      .tactics_way{
+        display: flex;
+        display: -ms-flexbox;
+        margin: 60px auto;
+        height: 280px;
+        font-size: 0;
+        overflow: hidden;
+        align-items: center;
+        li{
+          list-style: none;
+          float: left;
+          width: 396px;
+          height: 192px;
+          font-size: 0;
+          border: 5px solid transparent;
+          transition: border 0.3s,padding 0.3s,box-shadow 0.5s;
+          text-align: center;
+          p{
+
+            text-align: center;
+            width: 268px;
+            margin: 5px auto 0 auto;
+            font-size: 14px;
+            color: #666;
+          }
+        }
+        li:hover{
+        border: 5px solid #F9F9F9 ;
+        padding: 30px 0;
+        -moz-box-shadow:0 10px 5px rgba(230,230,230,0.7); -webkit-box-shadow:0 10px 5px rgba(230,230,230,0.7); box-shadow:0 10px 5px rgba(230,230,230,0.7);
+        }
+        li:nth-child(1){
+          margin: 0 0 0 5px;
+        }
+        img{
+          //margin-top: 40px;
+          width: 48px;
+          height: 48px;
+          font-size: 0;
+        }
+        p:nth-child(2){
+          margin-top: 25px;
+          font-size: 16px;
+          color: #000000;
+          margin-bottom: 25px;
+        }
+      }
+
+    }
+    .zend_logo{
+
+      font-size: 0;
+      margin-top: 20px;
+      img{
+
+        width: 70px;
+        height: 50px;
+      }
+      p:nth-child(2){
+        margin-top: 36px;
+        font-size: 20px;
+        color: #0065c7;
+        position: relative;
+        .Tm{
+          position: absolute;
+          top:3px;
+        }
+      }
+      .zend_logo1 {
+        height: 125px;
+        width: 850px;
+        margin: 0 auto;
+        p:nth-child(1) {
+
+          margin: 42px 0 0 0;
+          font-size: 16px;
+          line-height: 20px;
+          color: #666;
+        }
+        p:nth-child(2) {
+          margin: 1.5px 0;
+          font-size: 16px;
+          color: #666;
+        }
+        p:nth-child(3) {
+          margin-top:36px;
+          font-size: 14px;
+          color: #888;
+          font-weight: 100;
+        }
+
+      }
+      p:nth-child(4){
+        margin: 0 auto 40px auto;
+        font-size: 12px;
+        color: #0070c9;
+        font-weight: 100;
+
+      }
+
+    }
+
+
+  }
+}
