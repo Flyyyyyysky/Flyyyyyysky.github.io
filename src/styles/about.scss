@@ -246,8 +246,9 @@
       ul {
 
         display: flex;
-
+        height: 250px;
         margin: 0 auto;
+        position: relative;
         li {
           width: 365px;
           height: 233px;
@@ -255,6 +256,7 @@
           float: left;
           padding: 0 10px;
           line-height: 20px;
+
           img {
             width: 64px;
             height: 64px;
@@ -263,6 +265,11 @@
 
         }
         li:nth-child(1) {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-137%, -50%);
+          -ms-transform: translate(-137%, -50%);
           p:nth-child(2) {
             margin: 24px 0 33px 0;
             font-size: 20px;
@@ -271,6 +278,11 @@
 
         }
         li:nth-child(2) {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-48%, -50%);
+          -ms-transform: translate(-48%, -50%);
           p:nth-child(2) {
             margin: 24px 0 33px 0;
             font-size: 20px;
@@ -279,6 +291,11 @@
 
         }
         li:nth-child(3) {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(40%, -50%);
+          -ms-transform: translate(40%, -50%);
           p:nth-child(2) {
             margin: 24px 0 33px 0;
             font-size: 20px;
