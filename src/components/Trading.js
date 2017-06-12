@@ -92,34 +92,34 @@ class Trading extends Component {
 
                             <ul className="tactics_way ">
                                 <li >
-                                    <div className="trade_cengterX">
+
                                     <img src="./src/images/trade/s1.png"/>
                                     <p style={{fontSize:fontSize1}}><b>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_ONE.TITLE}</b></p>
                                     <p style={{fontSize:fontSize4,marginBottom:marginBot}}>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_ONE.CONTEXT_ONE}</p>
                                     <p style={{fontSize:fontSize4}}>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_ONE.CONTEXT_TWO}</p>
                                     <p style={{fontSize:fontSize4}}>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_ONE.CONTEXT_THREE}</p>
                                     <p style={{fontSize:fontSize4}}>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_ONE.CONTEXT_FOUR}</p>
-                                    </div>
+
                                 </li>
                                 <li >
-                                    <div className="trade_cengterY">
+
                                     <img src="./src/images/trade/s2.png"/>
                                     <p style={{fontSize:fontSize1}}><b>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_TWO.TITLE}</b></p>
                                     <p style={{fontSize:fontSize4,marginBottom:marginBot}}>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_TWO.CONTEXT_ONE}</p>
                                     <p style={{fontSize:fontSize4}}>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_TWO.CONTEXT_TWO}</p>
                                     <p style={{fontSize:fontSize4}}>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_TWO.CONTEXT_THREE}</p>
                                     <p style={{fontSize:fontSize4}}>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_TWO.CONTEXT_FOUR}</p>
-                                    </div>
+
                                 </li>
                                 <li >
-                                    <div className="trade_cengterZ">
+
                                     <img src="./src/images/trade/s3.png"/>
                                     <p style={{fontSize:fontSize1}}><b>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_THREE.TITLE}</b></p>
                                     <p style={{fontSize:fontSize4,marginBottom:marginBot}}>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_THREE.CONTEXT_ONE}</p>
                                     <p style={{fontSize:fontSize4}}>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_THREE.CONTEXT_TWO}</p>
                                     <p style={{fontSize:fontSize4}}>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_THREE.CONTEXT_THREE}</p>
                                     <p style={{fontSize:fontSize4}}>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_THREE.CONTEXT_FOUR}</p>
-                                    </div>
+
                                 </li>
                             </ul>
 

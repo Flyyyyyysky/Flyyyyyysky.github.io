@@ -70,8 +70,8 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(6%, -50%);
-        -ms-transform: translate(6%, -50%);
+        transform: translate(4%, -50%);
+        -ms-transform: translate(4%, -50%);
         .p1{
           margin-top: 84px;
           font-size: 18px;
@@ -182,17 +182,17 @@
         font-size: 0;
         overflow: hidden;
         align-items: center;
-
+        position: relative;
         li{
           list-style: none;
           float: left;
-          width: 395px;
+          width: 300px;
           height: 192px;
           font-size: 0;
           border: 5px solid transparent;
           //transition: border 0.3s,padding 0.3s,box-shadow 0.5s;
           text-align: center;
-          position: relative;
+
           p{
 
             text-align: center;
@@ -201,27 +201,8 @@
             font-size: 14px;
             color: #666;
           }
-          .trade_cengterX{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-          }
-          .trade_cengterY{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-          }
-          .trade_cengterZ{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-          }
+
+
         }
 
         li:hover{
@@ -232,6 +213,27 @@
         }
         li:nth-child(1){
           margin: 0 0 0 5px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-155%, -50%);
+          -ms-transform: translate(-155%, -50%);
+        }
+        li:nth-child(2){
+
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-47%, -50%);
+          -ms-transform: translate(-55%, -50%);
+        }
+        li:nth-child(3){
+
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(53%, -50%);
+          -ms-transform: translate(53%, -50%);
         }
         img{
           //margin-top: 40px;
