@@ -44,6 +44,7 @@
     .map{
       margin: 0 auto 76px auto;
       overflow: hidden;
+      width: 1024px;
       height: 265px;
       display: flex;
       justify-content: center;
@@ -55,11 +56,6 @@
         border: 11px solid #EBF9FF;
         background:url(../images/trade/map.png) center no-repeat ;
         background-size: 70%;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-95%, -50%);
-        -ms-transform: translate(-95%, -50%);
       }
       .gift{
         float: left;
@@ -67,11 +63,6 @@
         height:260px;
         background: #f6f7fb;
         margin-left: 14px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(4%, -50%);
-        -ms-transform: translate(4%, -50%);
         .p1{
           margin-top: 84px;
           font-size: 18px;
@@ -186,11 +177,11 @@
         li{
           list-style: none;
           float: left;
-          width: 300px;
+          width: 396px;
           height: 192px;
           font-size: 0;
           border: 5px solid transparent;
-          //transition: border 0.3s,padding 0.3s,box-shadow 0.5s;
+          transition: border 0.3s,padding 0.3s,box-shadow 0.5s;
           text-align: center;
 
           p{
@@ -213,27 +204,7 @@
         }
         li:nth-child(1){
           margin: 0 0 0 5px;
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-155%, -50%);
-          -ms-transform: translate(-155%, -50%);
-        }
-        li:nth-child(2){
 
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-47%, -50%);
-          -ms-transform: translate(-55%, -50%);
-        }
-        li:nth-child(3){
-
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(53%, -50%);
-          -ms-transform: translate(53%, -50%);
         }
         img{
           //margin-top: 40px;

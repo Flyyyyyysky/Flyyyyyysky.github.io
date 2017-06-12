@@ -91,7 +91,7 @@ class Trading extends Component {
                             <p className="p1" style={{fontSize:fontSize}}>{Lang.TRADINGCONTENT.PARTTHREE.CONTEXT_TWO}</p>
 
                             <ul className="tactics_way ">
-                                <li >
+                                <li className="trade_center1">
 
                                     <img src="./src/images/trade/s1.png"/>
                                     <p style={{fontSize:fontSize1}}><b>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_ONE.TITLE}</b></p>
@@ -101,7 +101,7 @@ class Trading extends Component {
                                     <p style={{fontSize:fontSize4}}>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_ONE.CONTEXT_FOUR}</p>
 
                                 </li>
-                                <li >
+                                <li className="trade_center2">
 
                                     <img src="./src/images/trade/s2.png"/>
                                     <p style={{fontSize:fontSize1}}><b>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_TWO.TITLE}</b></p>
@@ -111,7 +111,7 @@ class Trading extends Component {
                                     <p style={{fontSize:fontSize4}}>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_TWO.CONTEXT_FOUR}</p>
 
                                 </li>
-                                <li >
+                                <li className="trade_center3">
 
                                     <img src="./src/images/trade/s3.png"/>
                                     <p style={{fontSize:fontSize1}}><b>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_THREE.TITLE}</b></p>
