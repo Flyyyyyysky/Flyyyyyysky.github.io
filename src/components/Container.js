@@ -200,7 +200,7 @@ class Container extends Component {
                                 <Link to="/trading">{this.state.lang.NAVIGATION.TRADING}</Link>|
                                 <Link to="/about">{this.state.lang.NAVIGATION.ABOUT}</Link>|
                                 {/*<Link to="/job">{this.state.lang.NAVIGATION.JOB}</Link>|*/}
-                                <Link to="#"  onClick={()=>{this.toggleModal()}}>{this.state.lang.NAVIGATION.CONTACT.toUpperCase()}</Link>
+                                <Link to="/"  onClick={()=>{this.toggleModal()}}>{this.state.lang.NAVIGATION.CONTACT.toUpperCase()}</Link>
                             </div>
                         </div>
                     </div>
