@@ -185,15 +185,13 @@
         position: relative;
         li{
           list-style: none;
-          float: left;
+          //float: left;
           width: 395px;
           height: 192px;
           font-size: 0;
           border: 5px solid transparent;
           //transition: border 0.3s,padding 0.3s,box-shadow 0.5s;
           text-align: center;
-
-
           p{
 
             text-align: center;
@@ -202,27 +200,28 @@
             font-size: 14px;
             color: #666;
           }
-          .trade_cengter{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-          }
-          .trade_cengter1{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-          }
-          .trade_cengter2{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-          }
+
+        }
+        .trade_cengterX{
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+        }
+        .trade_cengterY{
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+        }
+        .trade_cengterZ{
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
         }
         li:hover{
         border: 5px solid #F9F9F9 ;
