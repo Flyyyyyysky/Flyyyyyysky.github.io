@@ -164,8 +164,9 @@
       }
 
       .tactics_way{
-        display: flex;
-        display: -ms-flexbox;
+        //display: flex;
+        //display: -ms-flexbox;
+        display: table;
         margin: 60px auto;
         height: 280px;
         font-size: 0;
