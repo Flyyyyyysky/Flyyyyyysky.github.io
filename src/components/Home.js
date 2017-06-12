@@ -27,11 +27,11 @@ class Home extends Component {
         this.autoPlay();
         $('.positionImg').mouseover(
             function(){
-                $(this).animate({scale:'1.2'},500)
+                $(this).animate({scale:'1.2'},500);
             }
         ).mouseout(
             function(){
-                $(this).animate({scale:'1'},500)
+                $(this).animate({scale:'1'},500);
             }
         );
 
@@ -40,7 +40,7 @@ class Home extends Component {
     }
 
     componentWillUnmount(){
-        this.stop(0)
+        this.stop(0);
     }
 
     autoPlay(){
@@ -244,19 +244,19 @@ class Home extends Component {
                         </div>
 
                         <ul className="info">
-                            <li>
+                            <li className="home_center1">
                                 <img src="./src/images/index/zen1.png" alt="全球化的视野"/>
                                 <h3>{Lang.WELCOME.PARTONE.APPENDIX_ONE.TITLE}</h3>
                                 <p>{Lang.WELCOME.PARTONE.APPENDIX_ONE.CONTEXT_ONE}</p>
                                 <p>{Lang.WELCOME.PARTONE.APPENDIX_ONE.CONTEXT_TWO}</p>
                             </li>
-                            <li>
+                            <li className="home_center2">
                                 <img src="./src/images/index/zen2.png" alt="技术"/>
                                 <h3>{Lang.WELCOME.PARTONE.APPENDIX_TWO.TITLE}</h3>
                                 <p>{Lang.WELCOME.PARTONE.APPENDIX_TWO.CONTEXT_ONE}</p>
                                 <p>{Lang.WELCOME.PARTONE.APPENDIX_TWO.CONTEXT_TWO}</p>
                             </li>
-                            <li>
+                            <li className="home_center3">
                                 <img src="./src/images/index/zen3.png" alt="投资"/>
                                 <h3>{Lang.WELCOME.PARTONE.APPENDIX_THREE.TITLE}</h3>
                                 <p>{Lang.WELCOME.PARTONE.APPENDIX_THREE.CONTEXT_ONE}</p>
@@ -270,17 +270,17 @@ class Home extends Component {
                             <p>{Lang.WELCOME.PARTTWO.CONTEXT_ONE}</p>
                         </div>
                         <ul className="concept">
-                            <li>
+                            <li className="concept_center1">
                                 <img src="./src/images/index/concept1.png" alt={Lang.WELCOME.PARTTWO.APPENDIX_ONE.TITLE}/>
                                 <h3>{Lang.WELCOME.PARTTWO.APPENDIX_ONE.TITLE}</h3>
                                 <p>{Lang.WELCOME.PARTTWO.APPENDIX_ONE.CONTEXT_ONE}</p>
                             </li>
-                            <li>
+                            <li className="concept_center2">
                                 <img src="./src/images/index/concept2.png" alt={Lang.WELCOME.PARTTWO.APPENDIX_TWO.TITLE}/>
                                 <h3>{Lang.WELCOME.PARTTWO.APPENDIX_TWO.TITLE}</h3>
                                 <p>{Lang.WELCOME.PARTTWO.APPENDIX_TWO.CONTEXT_ONE}</p>
                             </li>
-                            <li>
+                            <li className="concept_center3">
                                 <img src="./src/images/index/concept3.png" alt={Lang.WELCOME.PARTTWO.APPENDIX_THREE.TITLE}/>
                                 <h3>{Lang.WELCOME.PARTTWO.APPENDIX_THREE.TITLE}</h3>
                                 <p>{Lang.WELCOME.PARTTWO.APPENDIX_THREE.CONTEXT_ONE}</p>
