@@ -73,6 +73,7 @@
         border: 11px solid #EBF9FF;
         background:url(../images/trade/map.png) center no-repeat ;
         background-size: 70%;
+        display: table-cell;
       }
       .gift{
         float: left;
@@ -80,7 +81,7 @@
         height:260px;
         background: #f6f7fb;
         margin-left: 14px;
-
+        display: table-cell;
         .p1{
           margin-top: 84px;
           font-size: 18px;
