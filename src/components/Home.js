@@ -34,6 +34,13 @@ class Home extends Component {
                 $(this).animate({scale:'1'},500)
             }
         );
+        $('.info').children('li').mouseover(
+            function () {
+                $(this).animate({
+
+                },300)
+            }
+        )
 
 
     }
@@ -155,17 +162,7 @@ class Home extends Component {
             $('.weel_font1').children('.pTwo').css({left:'0',opacity:0});
         }
     }
-    fontAnmationLeave(){
-        setTimeout(
-            function () {
-                $('.weel_font').children('.pOne').css({top:'150px',opacity:0});
-                $('.weel_font1').children('.pTwo').css({left:'0',opacity:0});
-                $('.weel_font2').children('.pThree').css({top:'125px',opacity:0});
-            },5000
-        )
 
-
-    }
     stop(e){
         this.setState({
             currentIndex:e.index

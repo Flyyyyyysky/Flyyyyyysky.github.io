@@ -31,15 +31,16 @@ class Container extends Component {
         this.setState({
             isOpen: !this.state.isOpen
         },()=>{
+
             this.onChangebg();
         });
 
     }
     onChangebg(){
         if(this.state.isOpen){
-
+            $('#modal').show().animate({marginTop:'100px',opacity:1},800);
             $('#container').show();
-            $('#modal').show();
+
         }
     }
     onCloseModal(){
@@ -52,7 +53,22 @@ class Container extends Component {
         });
     }
     onChangeModal(){
+        $('#modal').animate({marginTop:'200px',opacity:0},1000,
 
+
+                function () {
+                    $(this).css({marginTop:0,opacity:1})
+                }
+
+
+
+
+        );
+         $('#container').animate({backgroundColor: 'rgba(0,0,0,0)'},2000,
+             function () {
+                 $(this).css({backgroundColor: 'rgba(0,0,0,0.7)'})
+             }
+         );
         setTimeout(() => { // need do it in next loop
             $('#modal').hide();
 
@@ -96,7 +112,7 @@ class Container extends Component {
        }
        ).mouseout(
            function(){
-               $(this).animate({rotate:'0deg'},500)
+               $(this).animate({rotate:'1deg'},500)
            }
        )
    }
