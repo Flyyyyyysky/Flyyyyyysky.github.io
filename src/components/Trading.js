@@ -88,7 +88,7 @@ class Trading extends Component {
                         <div className="tactics">
                             <p style={{fontSize:fontSize2}}><b>{Lang.TRADINGCONTENT.PARTTHREE.TITLE}</b></p>
                             <p className="p1" style={{fontSize:fontSize}}>{Lang.TRADINGCONTENT.PARTTHREE.CONTEXT_ONE}</p>
-                            <p className="p1" style={{fontSize:fontSize}}>{Lang.TRADINGCONTENT.PARTTHREE.CONTEXT_TWO}</p>
+                            <p className="p2" style={{fontSize:fontSize}}>{Lang.TRADINGCONTENT.PARTTHREE.CONTEXT_TWO}</p>
 
                             <ul className="tactics_way ">
                                 <li className="trade_center1">
