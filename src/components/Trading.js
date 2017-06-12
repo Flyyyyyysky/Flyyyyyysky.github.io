@@ -11,6 +11,13 @@ class Trading extends Component {
 
 
     }
+    componentWillMount(){
+        $('tactics_way').children('li').mouseover(
+            function () {
+                $(this).animate({height:'20px'},500)
+            }
+        )
+    }
     render(){
         let  fontSize,
             fontSize1,
