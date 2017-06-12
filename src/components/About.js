@@ -161,21 +161,21 @@ class About extends React.Component {
 
                         <div className="about_introduce">
                             <ul>
-                                <li>
+                                <li className="about_center1">
                                     <img src="./src/images/about/dao1.png" />
                                     <p>{Lang.ABOUTZENDOZH.PARTTHREE.APPENDIX_ONE.TITLE}</p>
                                     <p>{Lang.ABOUTZENDOZH.PARTTHREE.APPENDIX_ONE.CONTEXT_ONE}</p>
                                     <p>{Lang.ABOUTZENDOZH.PARTTHREE.APPENDIX_ONE.CONTEXT_TWO}</p>
                                     <p>{Lang.ABOUTZENDOZH.PARTTHREE.APPENDIX_ONE.CONTEXT_THREE}</p>
                                 </li>
-                                <li>
+                                <li className="about_center2">
                                     <img src="./src/images/about/dao2.png" />
                                     <p>{Lang.ABOUTZENDOZH.PARTTHREE.APPENDIX_TWO.TITLE}</p>
                                     <p>{Lang.ABOUTZENDOZH.PARTTHREE.APPENDIX_TWO.CONTEXT_ONE}</p>
                                     <p>{Lang.ABOUTZENDOZH.PARTTHREE.APPENDIX_TWO.CONTEXT_TWO}</p>
                                     <p>{Lang.ABOUTZENDOZH.PARTTHREE.APPENDIX_TWO.CONTEXT_THREE}</p>
                                 </li>
-                                <li>
+                                <li className="about_center3">
                                     <img src="./src/images/about/dao3.png" />
                                     <p>{Lang.ABOUTZENDOZH.PARTTHREE.APPENDIX_THREE.TITLE}</p>
                                     <p>{Lang.ABOUTZENDOZH.PARTTHREE.APPENDIX_THREE.CONTEXT_ONE}</p>
