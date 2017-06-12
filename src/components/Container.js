@@ -114,7 +114,8 @@ class Container extends Component {
            function(){
                $(this).animate({rotate:'1deg'},500)
            }
-       )
+       );
+       // $('.nav').animate(500);
    }
 
     goTopShow(){
