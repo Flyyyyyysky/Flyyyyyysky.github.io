@@ -34,7 +34,7 @@ class Home extends Component {
                 $(this).animate({scale:'1'},500);
             }
         );
-        $('.info').children('li').animate(500);
+        // $('.info').children('li').animate(500);
 
 
     }
