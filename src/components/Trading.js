@@ -92,12 +92,14 @@ class Trading extends Component {
 
                             <ul className="tactics_way ">
                                 <li>
+                                    <div className="trade_cengter">
                                     <img src="./src/images/trade/s1.png"/>
                                     <p style={{fontSize:fontSize1}}><b>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_ONE.TITLE}</b></p>
                                     <p style={{fontSize:fontSize4,marginBottom:marginBot}}>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_ONE.CONTEXT_ONE}</p>
                                     <p style={{fontSize:fontSize4}}>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_ONE.CONTEXT_TWO}</p>
                                     <p style={{fontSize:fontSize4}}>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_ONE.CONTEXT_THREE}</p>
                                     <p style={{fontSize:fontSize4}}>{Lang.TRADINGCONTENT.PARTTHREE.APPENDIX_ONE.CONTEXT_FOUR}</p>
+                                    </div>
                         </li>
                                 <li>
                                     <img src="./src/images/trade/s2.png"/>
